@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Wed Feb 24 2016 15:54:40 GMT+0000 (UTC) -->
+<html data-wf-site="56bdd9c48095816b3e812c44" data-wf-page="56bdd9c58095816b3e812c48">
+<head>
+  <meta charset="utf-8">
+  <title>Fredbergs Orkester</title>
+  <meta name="description" content="Fredbergsorkerster">
+  <meta property="og:title" content="Fredbergs Orkester">
+  <meta property="og:description" content="Fredbergs orkester">
+  <meta property="og:image" content="https://daks2k3a4ib2z.cloudfront.net/55c8a44499aea21811c29da0/55edb61d0c287afd6b9963ed_douglas-pinho.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/fredbergs.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Great Vibes:400","Fira Sans:300,300italic,regular,italic,500,500italic,700,700italic","Source Sans Pro:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900,900italic","Raleway:100,200,300,regular,500,600,700,800,900"]
+      }
+    });
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/FredbergsF.001 (1).jpeg">
+  <link rel="apple-touch-icon" href="images/FredbergsF.001 (2).jpeg">
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-67274673-1'], ['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script');
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <!-- Hotjar Tracking Code for douglaspinho.webflow -->
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:72197,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+  <script>
+    $(function() {
+    					$.scrollify({
+    						section : ".content-section",
+    					});
+    				});
+  </script>
+</head>
+<body class="home-body">
+  <div class="w-section modal-section">
+    <div class="w-form contact-form">
+      <form id="email-form" name="email-form" data-name="Email Form" class="w-clearfix">
+        <h2 class="hire-title">Meddelande</h2>
+        <input id="Namn" type="text" placeholder="Namn" name="Namn" data-name="Namn" autofocus="autofocus" required="required" class="w-input form-field name-input">
+        <input id="email" type="email" placeholder="Email" name="email" data-name="Email" required="required" class="w-input form-field mainl-input">
+        <input id="Telefon" type="text" placeholder="Telefonnummer" name="Telefon" data-name="Telefon" class="w-input form-field phone-input">
+        <textarea id="Meddelande" placeholder="Skriv ditt meddelande här..." name="Meddelande" required="required" data-name="Meddelande" class="w-input form-field text-input"></textarea>
+        <input type="submit" value="Skicka" data-wait="Vänta..." wait="Vänta..." class="w-button call-to-action submit form"><a href="#" data-ix="close-modal-contact" class="w-button call-to-action cancel">Tillbaka</a>
+      </form>
+      <div class="w-form-done alert-block">
+        <div class="avatar-block"></div>
+        <p class="succes-text">Tack, vi har fått ditt meddelande och kommer höra av oss med svar så snart som möjligt! Mvh Fredbergs.
+          <br>
+          <br><a class="bio-link" href="index.html">Tillbaka till startsidan</a>
+        </p>
+      </div>
+      <div class="w-form-fail">
+        <p>Oops! Något gick fel, kontrollera att du fyllt i alla fält med information.</p>
+      </div>
+    </div>
+  </div>
+  <header id="top" data-ix="nav-bar" class="w-section header-section">
+    <div data-collapse="tiny" data-animation="default" data-duration="400" data-ix="nav-display" class="w-nav main-nav">
+      <div data-ix="nav-behave-2" class="main-nav-block">
+        <nav role="navigation" class="w-nav-menu w-clearfix main-nav-wrapper"><a href="#hello" class="w-nav-link main-nav-button left-side">Start</a><a href="#work" class="w-nav-link main-nav-button left-side">Bilder</a><a href="#contact" class="w-nav-link main-nav-button right-side"><span style="font-size: 14px;">Kontakt</span></a><a href="#about" class="w-nav-link main-nav-button right-side">Om oss</a><a href="#top" class="w-nav-link w-hidden-main w-hidden-medium w-hidden-small main-nav-button left-side"><span class="main-nav-text">Top</span></a>
+        </nav>
+      </div>
+      <div data-ix="nav-behave" class="logo">
+        <a href="#top" class="w-inline-block logo-link"></a>
+      </div>
+      <div class="w-nav-button burger-button"></div>
+    </div>
+    <div class="scroll-icon home"></div>
+    <div data-animation="outin" data-duration="1000" data-infinite="1" data-delay="3000" data-autoplay="1" data-ix="main-logo-load" class="w-slider main-slider-container"><a href="#hello" data-ix="home-scroll" class="w-inline-block logo-container"><h1 class="logoheading">Fredbergs</h1><div class="logoorkester">Orkester</div></a>
+      <div class="w-slider-mask headingmask">
+        <div class="w-slide slide-content">
+          <div class="logo-container subtitle">Visual Designer</div>
+        </div>
+        <div data-ix="slide-display" class="w-slide slide-content">
+          <div class="logo-container subtitle">Graphic Designer</div>
+        </div>
+        <div class="w-slide slide-content">
+          <div class="logo-container subtitle">Digital Designer</div>
+        </div>
+        <div class="w-slide slide-content">
+          <div class="logo-container subtitle">Ux/Ui Designer</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div data-ix="header-bg-display" class="global-wrapper">
+    <section id="hello" class="w-section content-section hello">
+      <div data-ix="content-display-delay" class="content-wrapper open">
+        <h2 data-ix="title-behavior">Tjena!</h2>
+        <p class="present-text">Vi är <a class="bio-link" href="#">Fredbergs Orkester</a>. Vi spelar originell jazz i traditionell tappning med moderna inslag. Välkommen till vår hemsida, här kan du hitta bilder, <a class="bio-link" href="#about">ljud- och videoklipp</a> och annat. Är du intresserad av att boka oss till ett evenemang så är du varmt välkommen att skicka ett <a class="bio-link" href="#contact">mail</a> till oss via mailadressen som står längst ned på sidan. Mycket nöje!</p>
+      </div>
+    </section>
+    <section id="work" class="w-section content-section jobs">
+      <h2 data-ix="title-behavior">Bilder</h2>
+      <div data-animation="outin" data-duration="500" data-infinite="1" data-nav-spacing="auto" data-ix="content-display-delay" class="w-slider job-slider">
+        <div class="w-slider-mask">
+          <div class="w-slide slide-content">
+            <div class="w-row bilder-row-top">
+              <div class="w-col w-col-6 column-bilder">
+                <a href="#" class="w-lightbox w-inline-block lightboxlinkdiv">
+                  <div class="bilderdiv _1"></div>
+                  <script type="application/json" class="w-json">
+                    { "group": "bilder", "items": [{
+                      "url": "images/IMG_6067.JPG",
+                      "fileName": "56bddf354d655c800e6c9ef2_IMG_6067.JPG",
+                      "origFileName": "IMG_6067.JPG",
+                      "width": 3888,
+                      "height": 2592,
+                      "size": 4071367,
+                      "type": "image"
+                    }] }
+                  </script>
+                </a>
+              </div>
+              <div class="w-col w-col-6 column-bilder">
+                <a href="#" class="w-lightbox w-inline-block lightboxlinkdiv">
+                  <div class="bilderdiv _2"></div>
+                  <script type="application/json" class="w-json">
+                    { "group": "bilder", "items": [{
+                      "url": "images/11070422_899181793479914_8160583416509528437_o.jpg",
+                      "fileName": "56bdda60041f53663e46ec3f_11070422_899181793479914_8160583416509528437_o.jpg",
+                      "origFileName": "11070422_899181793479914_8160583416509528437_o.jpg",
+                      "width": 2048,
+                      "height": 1366,
+                      "size": 71592,
+                      "type": "image"
+                    }] }
+                  </script>
+                </a>
+              </div>
+            </div>
+            <div class="w-row">
+              <div class="w-col w-col-4 column-bilder">
+                <a href="#" class="w-lightbox w-inline-block lightboxlinkdiv">
+                  <div class="bilderdiv _3"></div>
+                  <script type="application/json" class="w-json">
+                    { "group": "bilder", "items": [{
+                      "url": "images/IMG_6142.JPG",
+                      "fileName": "56bddf34041f53663e46f6b2_IMG_6142.JPG",
+                      "origFileName": "IMG_6142.JPG",
+                      "width": 3888,
+                      "height": 2592,
+                      "size": 3951297,
+                      "type": "image"
+                    }] }
+                  </script>
+                </a>
+              </div>
+              <div class="w-col w-col-4 column-bilder">
+                <a href="#" class="w-lightbox w-inline-block lightboxlinkdiv">
+                  <div class="bilderdiv _4"></div>
+                  <script type="application/json" class="w-json">
+                    { "group": "bilder", "items": [{
+                      "id": "56bdda60bac34bea451250a6",
+                      "url": "images/11216619_899181346813292_3478992518209309818_o copy.jpg",
+                      "fileName": "example-bg.png",
+                      "origFileName": "example-bg.png",
+                      "width": 250,
+                      "height": 250,
+                      "size": 3618,
+                      "type": "image"
+                    }] }
+                  </script>
+                </a>
+              </div>
+              <div class="w-col w-col-4 column-bilder">
+                <a href="#" class="w-lightbox w-inline-block lightboxlinkdiv">
+                  <div class="bilderdiv _5"></div>
+                  <script type="application/json" class="w-json">
+                    { "group": "bilder", "items": [{
+                      "url": "images/13924_496546943743403_1039625459_n.jpg",
+                      "fileName": "56bddf324d655c800e6c9eef_13924_496546943743403_1039625459_n.jpg",
+                      "origFileName": "13924_496546943743403_1039625459_n.jpg",
+                      "width": 720,
+                      "height": 960,
+                      "size": 79334,
+                      "type": "image"
+                    }] }
+                  </script>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-slide slide-content">
+            <div class="w-row bilder-row-top">
+              <div class="w-col w-col-6 column-bilder">
+                <a href="#" class="w-lightbox w-inline-block lightboxlinkdiv">
+                  <div class="bilderdiv _6"></div>
+                  <script type="application/json" class="w-json">
+                    { "group": "bilder", "items": [{
+                      "id": "56bddf34041f53663e46f6b3",
+                      "url": "images/IMG_6039.JPG",
+                      "fileName": "56bddf354d655c800e6c9ef2_IMG_6067.JPG",
+                      "origFileName": "IMG_6067.JPG",
+                      "width": 3888,
+                      "height": 2592,
+                      "size": 4071367,
+                      "type": "image"
+                    }] }
+                  </script>
+                </a>
+              </div>
+              <div class="w-col w-col-6 column-bilder">
+                <a href="#" class="w-lightbox w-inline-block lightboxlinkdiv">
+                  <div class="bilderdiv _7"></div>
+                  <script type="application/json" class="w-json">
+                    { "group": "bilder", "items": [{
+                      "id": "56bddf33bac34bea451258ce",
+                      "url": "images/IMG_2756.JPG",
+                      "fileName": "56bdda60041f53663e46ec3f_11070422_899181793479914_8160583416509528437_o.jpg",
+                      "origFileName": "11070422_899181793479914_8160583416509528437_o.jpg",
+                      "width": 2048,
+                      "height": 1366,
+                      "size": 71592,
+                      "type": "image"
+                    }] }
+                  </script>
+                </a>
+              </div>
+            </div>
+            <div class="w-row">
+              <div class="w-col w-col-4 column-bilder">
+                <a href="#" class="w-lightbox w-inline-block lightboxlinkdiv">
+                  <div class="bilderdiv _8"></div>
+                  <script type="application/json" class="w-json">
+                    { "group": "bilder", "items": [{
+                      "id": "56bddf32ee8a26e545744dcb",
+                      "url": "images/1000701_553654914699272_209098200_n.jpg",
+                      "fileName": "56bddf34041f53663e46f6b2_IMG_6142.JPG",
+                      "origFileName": "IMG_6142.JPG",
+                      "width": 3888,
+                      "height": 2592,
+                      "size": 3951297,
+                      "type": "image"
+                    }] }
+                  </script>
+                </a>
+              </div>
+              <div class="w-col w-col-4 column-bilder">
+                <a href="#" class="w-lightbox w-inline-block lightboxlinkdiv">
+                  <div class="bilderdiv _9"></div>
+                  <script type="application/json" class="w-json">
+                    { "group": "bilder", "items": [{
+                      "id": "56bddf32ee8a26e545744dcc",
+                      "url": "images/IMG_2645.JPG",
+                      "fileName": "56bdda60bac34bea451250a6_11216619_899181346813292_3478992518209309818_o copy.jpg",
+                      "origFileName": "11216619_899181346813292_3478992518209309818_o copy.jpg",
+                      "width": 2048,
+                      "height": 1366,
+                      "size": 161971,
+                      "type": "image"
+                    }] }
+                  </script>
+                </a>
+              </div>
+              <div class="w-col w-col-4 column-bilder">
+                <a href="#" class="w-lightbox w-inline-block lightboxlinkdiv">
+                  <div class="bilderdiv _10"></div>
+                  <script type="application/json" class="w-json">
+                    { "group": "bilder", "items": [{
+                      "id": "56bddf33ee8a26e545744dcd",
+                      "url": "images/IMG_2545.JPG",
+                      "fileName": "56bddf324d655c800e6c9eef_13924_496546943743403_1039625459_n.jpg",
+                      "origFileName": "13924_496546943743403_1039625459_n.jpg",
+                      "width": 720,
+                      "height": 960,
+                      "size": 79334,
+                      "type": "image"
+                    }] }
+                  </script>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-slider-arrow-left slider-nav-control">
+          <div class="slider-nav-icon left-side"></div>
+        </div>
+        <div class="w-slider-arrow-right slider-nav-control">
+          <div class="slider-nav-icon"></div>
+        </div>
+        <div class="w-slider-nav slider-control"></div>
+      </div>
+    </section>
+    <section id="about" class="w-section content-section about">
+      <div data-duration-in="300" data-duration-out="100" data-ix="content-display-delay" class="w-tabs content-wrapper about">
+        <h2 data-ix="title-behavior">Mer om oss</h2>
+        <div class="w-tab-content">
+          <div data-w-tab="Skills" class="w-tab-pane w--tab-active about-tab-content small-list">
+            <ul class="w-list-unstyled">
+              <li data-ix="tag-displaay-info-1" class="about-skills-list-item">
+                <div class="w-clearfix marker-block"><span class="marker-text">Låt 1</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-2" class="about-skills-list-item">
+                <div class="w-clearfix marker-block"><span class="marker-text">Låt 2</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-3" class="about-skills-list-item">
+                <div class="w-clearfix marker-block"><span class="marker-text">Låt 3</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-4" class="about-skills-list-item">
+                <div class="w-clearfix marker-block"><span class="marker-text">Låt 4</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-5" class="about-skills-list-item">
+                <div class="w-clearfix marker-block"><span class="marker-text">Låt 5</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div data-w-tab="Tools" class="w-tab-pane about-tab-content small-list">
+            <ul class="w-list-unstyled">
+              <li data-ix="tag-displaay-info-1" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">Webflow</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-2" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">Photoshop</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-3" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">Illustrator</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-4" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">InDesign</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-5" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">After Effects</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-5" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">JustInMind</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-5" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">InVision</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-5" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">Pixate</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-5" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">Sketch</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div data-w-tab="Timeline" class="w-tab-pane about-tab-content">
+            <div class="w-embed w-script">
+              <script type='text/javascript' src='http://www.bandsintown.com/javascripts/bit_widget.js'></script>
+              <a href='http://www.bandsintown.com' class='bit-widget-initializer' data-artist='Steven Franks' data-text-color='#ffffff' data-link-color='#e83131'>Bandsintown</a>
+            </div>
+          </div>
+          <div data-w-tab="Extras" class="w-tab-pane about-tab-content medium-list">
+            <ul class="w-list-unstyled">
+              <li data-ix="tag-displaay-info-1" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">5 year of Digital Agency</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-2" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">Owner of <a class="timeline-link" target="_blank" href="http://instagram.com/onetextureperday">@OneTexturePerDay</a> Instagram project</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-3" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">“Married”&nbsp;with <a class="timeline-link" target="_blank" href="https://br.linkedin.com/in/gabrielabarbosapacheco">Gabi Barbosa</a></span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-4" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">Heavy Metal fan</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-5" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">(cheap) Beer lover</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-5" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">Have big dream to live in Europe</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-5" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">3D modeling&nbsp;enthusiastic&nbsp;</span>
+                </div>
+              </li>
+              <li data-ix="tag-displaay-info-5" class="about-skills-list-item">
+                <div class="marker-block"><span class="marker-text">Mobile heavy user</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-tab-menu about-tab-btn-group"><a data-w-tab="Skills" class="w-tab-link w--current w-inline-block about-tab-btn"><h3>Lyssna</h3></a><a data-w-tab="Tools" class="w-tab-link w-inline-block about-tab-btn"><h3>Video</h3></a><a data-w-tab="Timeline" class="w-tab-link w-inline-block about-tab-btn"><h3>Spelningar</h3></a><a data-w-tab="Extras" class="w-tab-link w-inline-block about-tab-btn"><h3>Spellista</h3></a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="w-section content-section about">
+      <div data-ix="content-display-delay" class="content-wrapper contact">
+        <h2 data-ix="title-behavior">Kontakta Oss</h2><a href="mailto:FredbergsOrkester@gmail.com?subject=Mail%20fr%C3%A5n%20Hemsidan" class="bio-link mail">FredbergsOrkester@gmail.com</a>
+        <ul class="w-list-unstyled big-margin-box">
+          <li data-ix="tag-displaay-info-first-tab" class="about-skills-list-item">
+            <a href="https://www.facebook.com/fredbergsorkester/?fref=ts" target="_blank" class="w-clearfix w-inline-block marker-block">
+              <div class="social-icon facebook"></div>
+              <p class="marker-text social">Facebook</p>
+            </a>
+          </li>
+          <li data-ix="tag-displaay-info-first-tab" class="about-skills-list-item">
+            <a href="http://sad" target="_blank" class="w-clearfix w-inline-block marker-block">
+              <div class="social-icon instagram"></div>
+              <p class="marker-text social">Instagram</p>
+            </a>
+          </li>
+        </ul><a href="#" data-ix="modal-contact" class="call-to-action hire">Skriv ett meddelande</a>
+      </div>
+      <div class="_w-slider-dot _w-active inactive"></div>
+    </section>
+    <div class="header-bg">
+      <div class="header-bg-color"></div>
+    </div>
+  </div><img src="images/points-2.png" data-ix="light-points" class="points-bg"><img src="images/points.png" data-ix="light-points-3" class="points-bg">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+  <script>
+    $(document).ready(function() {
+      $('#hire-btn').on('click', function(e) {
+        _gaq.push(['_trackEvent', '/Hire Btn']);
+      });
+    });
+  </script>
+  <style>
+    .w-slider-dot {
+        width: 14px;
+        height: 14px;
+        margin-right: 2px;
+        margin-left: 2px;
+        border: 1px solid white;
+        background-color: transparent;
+        -webkit-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
+    .w-slider-dot:hover {
+        background-color: white;
+    }
+    .w-slider-dot.w-active {
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .marker-block:hover .marker-text{
+         border-left-width: 1px;
+         border-left-color: white;
+         background-color: transparent;
+    }
+  </style>
+</body>
+</html>

@@ -570,7 +570,7 @@ a {
   padding-right: 40px;
   border: 2px solid #fff;
   background-color: transparent;
-  background-image: url('../images/sprite-nav.svg');
+  background-image: url('../images/sprite-nav_2.svg');
   background-position: 90% 22px;
   background-size: 30px;
   background-repeat: no-repeat;
@@ -881,7 +881,7 @@ a {
 }
 
 .present-text {
-  color: #919191;
+  color: #c4c4c4;
   font-size: 32px;
   line-height: 38px;
   font-weight: 200;
@@ -899,11 +899,13 @@ a {
   font-size: 32px;
   font-weight: 200;
   text-decoration: none;
+  text-shadow: 1px 1px 2px #000, -1px -1px 6px #000;
 }
 
 .bio-link:hover {
   background-color: #fff;
   color: #000;
+  text-shadow: none;
 }
 
 .bio-link.mail {
@@ -916,6 +918,15 @@ a {
   padding-left: 10px;
   font-size: 18px;
   line-height: 40px;
+  text-shadow: 1px 1px 2px #000, -1px -1px 6px #000;
+}
+
+.bio-link.mail:hover {
+  text-shadow: none;
+}
+
+.bio-link.mail.telefon {
+  margin-top: -55px;
 }
 
 .bio-link.small {
@@ -1150,7 +1161,10 @@ a {
 }
 
 .social-icon.instagram {
+  background-image: url('../images/sprite-social.svg');
   background-position: 0px -120px;
+  background-size: 40px;
+  background-repeat: no-repeat;
 }
 
 .social-icon.pinterest {
@@ -1661,6 +1675,30 @@ a {
   padding: 2px;
 }
 
+.youtubebutton {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  right: 0px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+}
+
+.soundcloud-div {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.centerimage {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 html.w-mod-js *[data-ix="content-display"] {
   display: none;
 }
@@ -1829,12 +1867,15 @@ html.w-mod-js *[data-ix="light-points-3"] {
   }
   .slider-control {
     position: absolute;
-    left: 0px;
+    left: auto;
+    right: 0px;
     bottom: 80px;
-    width: 50%;
+    display: none;
+    width: 100%;
     height: auto;
-    margin-left: 0px;
-    padding-left: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
     text-align: left;
   }
   .slider-control._3-column {
@@ -2048,7 +2089,7 @@ html.w-mod-js *[data-ix="light-points-3"] {
     padding-left: 20px;
   }
   .slider-nav-control {
-    height: 300px;
+    height: 100%;
   }
   .slider-nav-control._3-columns {
     height: 214px;
@@ -2099,6 +2140,15 @@ html.w-mod-js *[data-ix="light-points-3"] {
   }
   ._3-column-slider {
     width: 100%;
+  }
+  .logoheading {
+    margin-top: 20px;
+  }
+  .bilderdiv._4 {
+    background-position: 10% 50%;
+  }
+  .bilderdiv._3 {
+    background-position: -273px 0px;
   }
 }
 
@@ -2327,7 +2377,7 @@ html.w-mod-js *[data-ix="light-points-3"] {
     top: auto;
     bottom: 0px;
     width: 40px;
-    height: 40px;
+    height: 100%;
   }
   .slider-nav-control._3-columns {
     height: 40px;
@@ -2356,13 +2406,13 @@ html.w-mod-js *[data-ix="light-points-3"] {
     display: block;
     width: 100%;
     background-color: #2b2b2b;
-    background-image: url('../images/sprite-nav_2.svg');
+    background-image: url('../images/sprite-nav.svg');
     background-position: 52% -40px;
     background-size: 30px;
     background-repeat: no-repeat;
   }
   .home-body {
-    background-position: 85% 50%;
+    background-position: 50% 50%;
     background-size: cover;
   }
   .work-row-wrapper.site-bg {
@@ -2415,6 +2465,23 @@ html.w-mod-js *[data-ix="light-points-3"] {
   }
   .project-description {
     font-size: 16px;
+  }
+  .logoheading {
+    margin-top: 0px;
+    font-size: 2.5em;
+  }
+  .logoorkester {
+    margin-top: 40px;
+    font-size: 16px;
+  }
+  .bilderdiv._4 {
+    background-position: -111px 50%;
+  }
+  .bilderdiv._3 {
+    background-position: -303px 0px;
+  }
+  .bilderdiv._1 {
+    background-position: -64px 50%;
   }
 }
 
